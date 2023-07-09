@@ -1,0 +1,25 @@
+div{
+    width: 500px;
+    margin : 20px auto ;
+    padding: 20px;
+    color: white;
+}
+
+.assign-1-shape-1{
+    background-color: blueviolet;
+}
+
+/*
+blue violet in all color systems
+HexaDecimal : #8a2be2
+RGB : 138 43 226
+HSL : 271 76% 53%
+*/
+
+.assign-1-shape-2{
+    background-color: rgba(138,43,226,50%);
+}
+
+.assign-1-shape-3{
+    background-color: hsla(271,76%,53%,10%);
+}

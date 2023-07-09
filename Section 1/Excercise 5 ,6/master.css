@@ -1,0 +1,24 @@
+/*Excercise 6*/
+/*
+
+BAD
+.USERNAME {
+}
+
+BAD
+.UserName {
+}
+
+GOOD
+.user-name {
+}
+
+BAD
+.userName {
+}
+
+BAD
+.usernameprofile {
+}
+
+*/
