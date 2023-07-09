@@ -1,0 +1,14 @@
+/*
+    This Called External Style as it's imported from an external file
+    <link rel="stylesheet" href="css/file.css" />
+
+    This is called Internal Style as it's written inside the html file in <head> tag
+    <style>
+    p {
+    color: red;
+    }
+    </style>
+
+    This is called Inline Style as it's called inside html element.
+    <p style="color: blue;">This Is Our Paragraph</p>
+*/
