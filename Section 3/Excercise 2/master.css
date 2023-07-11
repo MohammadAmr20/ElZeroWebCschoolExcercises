@@ -1,0 +1,21 @@
+div{
+    width: 400px;
+    margin: 40px auto;
+    background-color: #EEE;
+    padding: 20px;
+}
+.shape1 span{
+    border-left: 5px solid red ;
+    padding: 10px 10px;
+    margin-left: -10px;
+}
+
+.shape2 {
+    visibility: hidden;
+}
+
+.shape3 span{
+    border-left: 5px solid forestgreen ;
+    padding: 10px 10px;
+    margin-left: -10px;
+}
