@@ -3,7 +3,9 @@
 ## Attributes :-
 
 border-width : detrmines how thick you want your border to be. 
+
 border-color : determines it's color .
+
 border-style : determines how it's drawn in html page (solid , dashed , dotted , ... etc).
 
 NOTE : The directions can be determined on each starting from top clockwise .
