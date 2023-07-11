@@ -1,0 +1,14 @@
+*{
+    background-color: #c9c2c2;
+}
+
+div{
+    background-color: brown;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: fit-content;
+    max-width: 400px;
+    height: 30px;
+    overflow: auto;
+}
