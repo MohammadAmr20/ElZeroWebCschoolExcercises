@@ -1,0 +1,9 @@
+div{
+    text-transform: capitalize;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-shadow: 0.4px 0.4px 0 orangered ,0.8px 0.8px 0 rgb(69, 69, 243),1.2px 1.2px 0 rgb(89, 20, 137);
+}
