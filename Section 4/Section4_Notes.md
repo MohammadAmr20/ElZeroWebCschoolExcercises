@@ -18,6 +18,7 @@ It's Useful when we want to select element that has a specific parent we know be
 div p{
 
 }
+
 It selects all paragraphs that is inside a div in the document .
 
 We can select by id or class also.
