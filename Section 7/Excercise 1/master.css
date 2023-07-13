@@ -1,0 +1,40 @@
+
+.parent{
+    background-color: #EEE;
+    width: 80%;
+    padding-bottom: 10px;
+    margin: 20px auto;
+}
+
+
+
+.child-full, .three , .two , .four {
+    margin-top: 15px;
+    padding: 10px 0;
+    background-color: #DDD;
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+}
+
+.child-full{
+    width: calc((100% - 30px)/1);
+}
+
+/* Spaces between minus and digits are important !!!*/
+
+.three{
+    width: calc((100% - 60px)/3);
+}
+
+.two{
+    width: calc((100% - 45px)/2);
+}
+
+.four{
+    width: calc((100% - 75px)/4);
+}
+
+.clear{
+    clear: both;
+}
