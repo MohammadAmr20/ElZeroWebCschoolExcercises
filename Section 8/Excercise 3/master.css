@@ -1,0 +1,30 @@
+
+.main{
+    background-color: #EEE;
+    margin: 15px auto;
+    width: 80%;
+    padding: 10px;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.dec{
+    list-style: decimal;
+}
+
+.rom{
+    list-style: upper-roman;
+}
+
+.dec li , .rom li , .main ul li{
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.main ul li{
+    list-style-position: inside;
+    margin-left: -30px;
+}
+
