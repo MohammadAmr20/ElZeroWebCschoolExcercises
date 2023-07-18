@@ -1,0 +1,28 @@
+
+.parent{
+    counter-reset: my-counter;
+}
+
+p{
+    background-color: #EEE;
+    padding: 10px ;
+    width: 300px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    position: relative;
+    border-right: 4px solid #f44336;
+}
+
+.parent p::before{
+    counter-increment: my-counter;
+    content: counter(my-counter);
+    background-color: #f44336;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    height: 100%;
+    width: 30px;
+    text-align: center;
+    line-height: 250%;
+    color: white;
+}
