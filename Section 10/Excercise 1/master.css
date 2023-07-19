@@ -1,0 +1,45 @@
+
+.parent{
+    counter-reset: my-counter;
+    font-family: sans-serif;
+}
+
+.parent div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px 20px;
+    position: relative;
+    box-shadow: -5px -2px #e91e63, 5px 5px #2196f3;
+}
+
+.parent div::before{
+    counter-increment: my-counter;
+    content: counter(my-counter);
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: -19px;
+    right: 35%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 30px;
+}
+
+.parent div::after{
+    content: "Element";
+}
