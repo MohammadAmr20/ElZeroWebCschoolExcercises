@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    counter-reset: my-counter;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px 1fr;
+    gap: 15px;
+}
+
+.grid div{
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.grid div::after{
+    counter-increment: my-counter;
+    content: counter(my-counter);
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+}
+
+.grid div::before{
+    content: "Element";
+    font-weight: bold;
+    color:white;
+    margin-right: 4px;
+    font-size: 20px;
+}
