@@ -17,7 +17,7 @@ div::before , div::after{
     content: "";
     position: absolute;
     left: 0;
-    height: 7px;
+    height: 6px;
     width: 100%;
     background-image: linear-gradient(
         to right,
