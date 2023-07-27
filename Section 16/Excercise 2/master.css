@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main : #009688;
+}
+
+h1{
+    width: 150px;
+    background-color: var(--main);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px auto;
+    position: relative;
+}
+
+h1::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 25px;
+    background-color: var(--main);
+    border-right: 5px solid white;
+    left: -15px;
+    transform: skew(15deg);
+}

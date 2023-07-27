@@ -1,0 +1,68 @@
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --first:#2490ff;
+    --second:#fcb400;
+    --third:black;
+}
+
+body{
+    background-color: #EEE;
+    height: 100vh;
+}
+
+
+div , div::before , div::after{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    animation-name: load;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-duration: 1s;
+    border: 5px solid var(--first);
+    border-bottom-color: transparent;
+}
+
+div::before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    animation-duration: 2s;
+    position: absolute;
+    border: 5px solid var(--second);
+    border-bottom-color: transparent;
+}
+
+div::after{
+    content: '';
+    width: 80px;
+    height: 80px;
+    animation-duration: 3s;
+    position: absolute;
+    border: 5px solid var(--third);
+    border-bottom-color: transparent;
+}
+
+
+div:hover , div:hover::before , div:hover::after{
+    animation-play-state: running;
+}
+
+@keyframes load{
+    to{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
